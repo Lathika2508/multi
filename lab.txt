@@ -21,6 +21,11 @@ sudo dhclient -v enp0s3
 
 
 Exp 1:
+sudo -i
+adduser lathika
+usermod -aG sudo lathika
+su - lathika
+  
 sudo useradd -m Nanthitha
 sudo passwd Nanthitha
 sudo usermod -aG sudo Nanthitha
